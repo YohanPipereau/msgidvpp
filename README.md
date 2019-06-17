@@ -1,9 +1,10 @@
-#msgidvpp
+# msgidvpp
 
 A small program to get the correspondance between VPP VAPI messages id and their message name.
 
-Example:
+# Example output:
 
+```
 index: 621 	 name: sr_localsids_details_7ff35765 	 
 index: 614 	 name: sr_policy_del_168e1a98
 index: 626 	 name: sr_mpls_policy_add_6f5b21cc 	 
@@ -20,4 +21,4 @@ index: 772 	 name: sctp_del_src_dst_connection_reply_e8d4e804
 index: 633 	 name: sr_mpls_steering_add_del_reply_e8d4e804 
 index: 624 	 name: sr_steering_pol_dump_51077d14 
 index: 616 	 name: sr_set_encap_source_d05bb4de 
-
+```
